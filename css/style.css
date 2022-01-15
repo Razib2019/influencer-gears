@@ -1,4 +1,6 @@
+/* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+/* Common Styles */
 *{
     margin: 0;
     padding: 0;
@@ -9,8 +11,7 @@ body{
 }
 .container{
     max-width: 1200px;
-    margin: 0 auto;
-    padding:30px 80px;
+    margin: 20px auto;
 }
 .primary-button{
     outline: 0;
@@ -28,6 +29,7 @@ nav{
 .influencer{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    margin: 20px;
 }
 .influencer-left{
     display: flex;
@@ -47,7 +49,17 @@ nav{
     margin: 20px 0;
 }
 .influencer-right{
-    width: 100%;
+    padding: 0 50px;
+}
+.section-title{
+    text-align: center;
+}
+.section-title h2{
+    font-size: 25px;
+    color: #3A3A3A;
+    border-bottom: 2px solid  #3A3A3A;
+    margin: 50px;
+    display: inline-block;
 }
 footer{
     height: 200px;
@@ -67,4 +79,9 @@ footer{
     display: flex;
     justify-content: center;
     color: #fff;
+}
+/* Popular Collection Styles */
+.tripod .tripod-banner img{
+    width: 300px;
+    height: 256px;
 }

@@ -104,3 +104,10 @@ footer{
 .fa-star.empty{
     color: #757575;;
 }
+.see-more{
+    color:#E02C6D;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: right;
+    padding:0 350px;
+}
